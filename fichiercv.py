@@ -3,7 +3,6 @@ import pandas as pd
 from streamlit_player import st_player
 
 st.markdown("<h1 style='text-align: center; color: #3283FE;'>PIVETEAU Marc</h1>", unsafe_allow_html=True)
-
 st.markdown("<h1 style='text-align: center; color: Black;font-size: 30px;'>Recherche une entreprise pour une alternance en Data Scientist ou un poste de Data Analyst</h1>", unsafe_allow_html=True)
 
 st_player('https://youtu.be/D5jS14ZvPOE')
