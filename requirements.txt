@@ -1,3 +1,4 @@
 
 pandas==1.1.5
 streamlit==1.2.0
+streamlit-player==0.1.5
