@@ -9,7 +9,7 @@ st.markdown("<h1 style='text-align: center; color: Black;font-size: 30px;'>Reche
 st_player('https://youtu.be/D5jS14ZvPOE')
 
 st.markdown("<h1 style='text-align: center; color: #3283FE;font-size: 20px;'>Hard skills - Soft skills</h1>", unsafe_allow_html=True)
-recherche = st.selectbox("Que souhaitez vous voir ?",['Choisi entre hard skill et soft skill :','Hard skills', 'Soft skills'])
+recherche = st.selectbox("Que souhaitez vous voir ?",['Choisissez entre hard skill et soft skill :','Hard skills', 'Soft skills'])
 
 #https://share.streamlit.io/marcpiveteau/cv/main/fichiercv.py	
 if recherche =='Hard skills':
@@ -38,7 +38,7 @@ if recherche =='Hard skills':
 		st_player('https://www.youtube.com/watch?v=anZcEIQlpoY&t=331s')
 
 if recherche =='Soft skills':
-	if(st.button('adaptabilité')):
+	if(st.button('Adaptabilité')):
 		st.markdown("![Alt Text](https://raw.githubusercontent.com/marcpiveteau/CV/main/adaptabilit%C3%A93.jpg)")
 	if(st.button("Esprit d'équipe")):
 		st.markdown("![Alt Text](https://raw.githubusercontent.com/marcpiveteau/CV/main/esprit%20d'%C3%A9quipe.jpg)")
@@ -108,7 +108,7 @@ if recherche2 =='Institution saint joseph (2005)':
 
 st.write('----'*20)
 st.markdown("<h1 style='text-align: center; color: #3283FE;font-size: 20px;'>Experience</h1>", unsafe_allow_html=True)
-recherche3 = st.selectbox("Que souhaitez vous voir dans mon experience professionnel ?",['Choisissez suivant les différents experience :' ,'Independant immobilier chez proprietes-privees.com (2017 -2021)','Commercial chez Reseau pro (2010 -2017)', 'vendeur interne chez Saint gobain (2006-2010)'])
+recherche3 = st.selectbox("Que souhaitez vous voir dans mon experience professionnel ?",['Choisissez suivant les différents experience :' ,'Independant immobilier chez proprietes-privees.com (2017 -2021)','Commercial chez Reseau pro (2010 -2017)', 'Vendeur interne chez Saint gobain (2006-2010)'])
 if recherche3 =='Independant immobilier chez proprietes-privees.com (2017 -2021)':
 	st.markdown("<h1 style='text-align: center; color: Black;font-size: 20px;'>Independant en immobilier</h1>", unsafe_allow_html=True)
 	lienpp = '[ma page propriétés-privées.com](https://www.proprietes-privees.com/negociateur/marc.piveteau)'
@@ -123,7 +123,7 @@ if recherche3 =='Commercial chez Reseau pro (2010 -2017)':
 	st.markdown('**mes missions :**')
 	st.write("redressement et suivit de différents portefeuille client")
 	st.write("mise en place de tarification suivant le marché et les clients, prise des commandes, recommandation et prescription technique")
-if recherche3 =='vendeur interne chez Saint gobain (2006-2010)':
+if recherche3 =='Vendeur interne chez Saint gobain (2006-2010)':
 	st.markdown("<h1 style='text-align: center; color: Black;font-size: 20px;'>Vendeur interne</h1>", unsafe_allow_html=True)
 	st.markdown('**mes missions :**')
 	st.write("accueil client, chiffrage, vente, gestion des livraisons et suivit de la comptabilité")
@@ -143,7 +143,7 @@ if recherche4 =='bénévolat':
 if recherche4 =='loisirs':
 	st.write("Le basket en tant que joueur et coach d'une équipe de jeune")
 	st.write("La nature et la forêt")
-	st.write("Les voyages (Bénin, Les Canaris, Portugal, Irlande,...")
+	st.write("Les voyages (Bénin, Les Canaris, Portugal, Irlande,...)")
 
 st.write('----'*20)
 st.markdown("<h1 style='text-align: center; color: #3283FE;font-size: 20px;'>me contacter</h1>", unsafe_allow_html=True)
