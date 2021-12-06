@@ -108,7 +108,7 @@ if recherche2 =='Institution saint joseph (2005)':
 
 st.write('----'*20)
 st.markdown("<h1 style='text-align: center; color: #3283FE;font-size: 20px;'>Experience</h1>", unsafe_allow_html=True)
-recherche3 = st.selectbox("Que souhaitez vous voir dans mon experience professionnel ?",['Choisissez suivant les différents experience :' ,'Independant immobilier chez proprietes-privees.com (2017 -2021)','Commercial chez Reseau pro (2010 -2017)', 'Vendeur interne chez Saint gobain (2006-2010)'])
+recherche3 = st.selectbox("Que souhaitez vous voir dans mon experience professionnel ?",['Choisissez suivant les différents experiences :' ,'Independant immobilier chez proprietes-privees.com (2017 -2021)','Commercial chez Reseau pro (2010 -2017)', 'Vendeur interne chez Saint gobain (2006-2010)'])
 if recherche3 =='Independant immobilier chez proprietes-privees.com (2017 -2021)':
 	st.markdown("<h1 style='text-align: center; color: Black;font-size: 20px;'>Independant en immobilier</h1>", unsafe_allow_html=True)
 	lienpp = '[ma page propriétés-privées.com](https://www.proprietes-privees.com/negociateur/marc.piveteau)'
@@ -146,6 +146,11 @@ if recherche4 =='loisirs':
 	st.write("Les voyages (Bénin, Les Canaris, Portugal, Irlande,...)")
 
 st.write('----'*20)
+
+st.markdown("<h1 style='text-align: center; color: Black;font-size: 15px;'>Programme de l'alternance</h1>", unsafe_allow_html=True)
+lienalternance= "[lien programme de l'alterance ](https://www.wildcodeschool.com/fr-FR/formations/formation-data-scientist/remote-francais)"
+st.markdown(lienalternance, unsafe_allow_html=True)
+
 st.markdown("<h1 style='text-align: center; color: #3283FE;font-size: 20px;'>me contacter</h1>", unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center; color: black;font-size: 15px;'>marcpiveteau@hotmail.fr</h1>", unsafe_allow_html=True)
