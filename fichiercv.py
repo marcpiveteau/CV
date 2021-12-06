@@ -30,7 +30,7 @@ if recherche =='Hard skills':
 		st.markdown("![Alt Text](https://raw.githubusercontent.com/marcpiveteau/CV/main/dataviz.jpg)")
 	if(st.button('Machine learning')):
 		st.markdown('**Scikit learn, nltk**')
-		lienexosklearn= "[exemple d'un exercice que j'ai fait pour utiliser de sklearn et nltk](https://colab.research.google.com/drive/14QOW9JIGGg7t_-7RAwX_NmTNmLU35_vJ?usp=sharing)"
+		lienexosklearn= "[exemple d'un exercice que j'ai fait pour utiliser sklearn et nltk](https://colab.research.google.com/drive/14QOW9JIGGg7t_-7RAwX_NmTNmLU35_vJ?usp=sharing)"
 		st.markdown(lienexosklearn, unsafe_allow_html=True)
 		st.markdown("![Alt Text](https://raw.githubusercontent.com/marcpiveteau/CV/main/scikit%20learn.jpg)")
 	if(st.button('Méthode Agile')):
