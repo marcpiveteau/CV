@@ -78,21 +78,22 @@ if recherche2 =='Wild Code School (2021-2022)':
 		st.write('Utiliser les plateformes de data science(KNIME) et de Big Data')
 		st.write('Manipuler la #Dataviz interactive et dynamique (Plotly et Bokeh)')
 		st.write('Réaliser des dashboards et de la cartographie PowerBI et Tableau ')
-	st.markdown("<h1 style='text-align: center; color: Black;font-size: 20px;'>Projets réalisés et hackathon</h1>", unsafe_allow_html=True)
-	st.markdown("<h1 style='text-align: center; color: Black;font-size: 15px;'>Bougez le curseur pour voir les différents projets :</h1>", unsafe_allow_html=True)
-	recherchewild2 = st.select_slider("le curseur projets et hackatton:",options=['projet 1','projet 2', 'hackathon'])
-	if recherchewild2 == 'projet 1':
+	st.markdown("<h1 style='text-align: center; color: Black;font-size: 20px;'>Cochez pour voir les projets réalisés et hackathon</h1>", unsafe_allow_html=True)
+	projet1 = st.checkbox("Projet 1: analyse de donnée et Dashboard  => Cliquez pour voir le projet 1")
+	if projet1:
 		st.write('Projet 1: analyse de donnée et présentation Dashboard : My SQL, Tableau software ')
-		st.write('le dashboard a été réalisé sur tableau software, il était interactif mais pour le partager un power point a été fait')
+		st.write("le dashboard a été réalisé sur Tableau software, il est interactif mais pour des facilités de partage et pour les personnes n'ayant pas Tableau le dashboard a été mis sur power point")
 		lienprojet1= '[lien power point pour projet 1 ](https://1drv.ms/p/s!AnPXp85bWZSV3T0f594tbOBm7gzv?e=nWVYMS)'
 		st.markdown(lienprojet1, unsafe_allow_html=True)
-	if recherchewild2 == 'projet 2':
+	projet2 = st.checkbox("Projet 2: nettoyage, analyse et machine learning  => Cliquez pour voir le projet 2")
+	if projet2:
 		st.write("Projet 2: nettoyage, analyse et système de recommandation à partir d'un Dataframe de films : Pandas, Python, Seaborn, Power BI et Streamlit")
 		lienprojet2= '[projet 2 les graphiques](https://share.streamlit.io/marcpiveteau/projet2/main/statnanflix.py)'
 		st.markdown(lienprojet2, unsafe_allow_html=True)
 		lienprojet3= '[projet 2 de recommandation](https://share.streamlit.io/marcpiveteau/projetreco/main/recomandation.py)'
 		st.markdown(lienprojet3, unsafe_allow_html=True)
-	if recherchewild2 == 'hackathon':
+	hackathon = st.checkbox("hackathon: création d'une API et machine learning  => Cliquez pour voir le hackathon")
+	if hackathon:
 		st.write("hackathon: création d'une API sur le theme de la musique : Pandas, Python, sklearn, Plotly et Streamlit")
 if recherche2 =='Université de grenoble (2006)':
 	st.markdown("<h1 style='text-align: center; color: Black;font-size: 20px;'>licence en gestion et commerce des produits de la filière forestière</h1>", unsafe_allow_html=True)
@@ -141,13 +142,13 @@ if recherche4 =='bénévolat':
 	st.write("responsable de l'organisation de la journée lucrative (randonnée, chasse aux trésors,...)")
 if recherche4 =='loisirs':
 	st.write("Le basket en tant que joueur et coach d'une équipe de jeune")
-	st.write("La nature")
-	st.write("Les voyages (Bénin,Les Canaris, Portugal, Irlande,...")
+	st.write("La nature et la forêt")
+	st.write("Les voyages (Bénin, Les Canaris, Portugal, Irlande,...")
 
 st.write('----'*20)
 st.markdown("<h1 style='text-align: center; color: #3283FE;font-size: 20px;'>me contacter</h1>", unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center; color: black;font-size: 15px;'>marc.piveteau@hotmail.fr</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;font-size: 15px;'>marcpiveteau@hotmail.fr</h1>", unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center; color: black;font-size: 15px;'>06-74-36-45-38</h1>", unsafe_allow_html=True)
 
