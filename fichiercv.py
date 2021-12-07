@@ -5,7 +5,7 @@ from streamlit_player import st_player
 st.markdown("<h1 style='text-align: center; color: #3283FE;'>Marc PIVETEAU</h1>", unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center; color: Black;font-size: 30px;'>Disponible pour un poste dans la Data</h1>", unsafe_allow_html=True)
-
+st.markdown("<h1 style='text-align: center; color: Black;font-size: 24px;'>Alternance Data Scientist / CDI Data Analyst</h1>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: Black;font-size: 20px;'>A partir de février 2022</h1>", unsafe_allow_html=True)
 
 st_player('https://youtu.be/D5jS14ZvPOE')
@@ -165,3 +165,4 @@ lienlinkedin = '[Linkedin](https://www.linkedin.com/in/marc-piveteau-63a4b0130/)
 st.markdown(lienlinkedin, unsafe_allow_html=True)
 liengit = '[Github](https://github.com/marcpiveteau)'
 st.markdown(liengit, unsafe_allow_html=True)
+
