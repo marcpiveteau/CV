@@ -19,12 +19,12 @@ if recherche =='Hard skills':
 		st.markdown('**Mysql**')
 		st.markdown("![Alt Text](https://raw.githubusercontent.com/marcpiveteau/CV/main/t%C3%A9l%C3%A9chargement.jpg)")
 	if(st.button('Traitement de données')):
-		lienpandas = "[exemple d'un traitement de données d'un dataframe](https://colab.research.google.com/drive/1g66yTOzycusv1P5QLHkW2Z0JE9MfgaEM?usp=sharing)"
+		lienpandas = "[un de mes traitements de données d'un dataframe](https://colab.research.google.com/drive/1g66yTOzycusv1P5QLHkW2Z0JE9MfgaEM?usp=sharing)"
 		st.markdown(lienpandas, unsafe_allow_html=True)
 		st.markdown('**Python, Pandas, Numpy, Excel, power bi query, google sheet**')
 		st.markdown("![Alt Text](https://raw.githubusercontent.com/marcpiveteau/CV/main/pythonexc.jpg)")
 	if(st.button('Dashboard et Dataviz')):
-		lienpowerbi = "[exemple d'un dashboard sur Power BI ](https://app.powerbi.com/view?r=eyJrIjoiN2NjM2ZmNjQtMmYzZi00MDA1LWFmYTUtNTBhMTY2MjEzYjg5IiwidCI6IjE0NTJmNzE3LTQ5MTItNDE1Yi1hZjg1LWQ3Njc5YWM0MWQwNiJ9)"
+		lienpowerbi = "[Un de mes dashboard sur Power BI ](https://app.powerbi.com/view?r=eyJrIjoiN2NjM2ZmNjQtMmYzZi00MDA1LWFmYTUtNTBhMTY2MjEzYjg5IiwidCI6IjE0NTJmNzE3LTQ5MTItNDE1Yi1hZjg1LWQ3Njc5YWM0MWQwNiJ9)"
 		st.markdown(lienpowerbi, unsafe_allow_html=True)
 		#<iframe width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiN2NjM2ZmNjQtMmYzZi00MDA1LWFmYTUtNTBhMTY2MjEzYjg5IiwidCI6IjE0NTJmNzE3LTQ5MTItNDE1Yi1hZjg1LWQ3Njc5YWM0MWQwNiJ9" frameborder="0" allowFullScreen="true"></iframe>
 		st.markdown('**Tableau software, Power BI, excel, streamlit**')
@@ -55,7 +55,7 @@ if recherche =='Soft skills':
 st.write('----'*20)
 
 st.markdown("<h1 style='text-align: center; color: #3283FE;font-size: 20px;'>Formation</h1>", unsafe_allow_html=True)
-recherche2 = st.selectbox("Découvrez mon parcours de formation ?",['Choisissez une formation :','Wild Code School (2021-2022) : Formation Data Analyst','Université de Grenoble (2006) : Licence en gestion et commerce de bois', 'Institution Saint Joseph (2005) : BTS Gestion Forestière'])
+recherche2 = st.selectbox("Découvrez mon parcours de formation",['Choisissez une formation :','Wild Code School (2021-2022) : Formation Data Analyst','Université de Grenoble (2006) : Licence en gestion et commerce de bois', 'Institution Saint Joseph (2005) : BTS Gestion Forestière'])
 
 if recherche2 =='Wild Code School (2021-2022) : Formation Data Analyst':
 	st.markdown("<h1 style='text-align: center; color: Black;font-size: 20px;'>Formation présentielle de Data Analyst</h1>", unsafe_allow_html=True)
