@@ -149,7 +149,7 @@ if recherche4 =='Loisirs':
 st.write('----'*20)
 
 st.markdown("<h1 style='text-align: center; color: Black;font-size: 15px;'>Programme de l'alternance</h1>", unsafe_allow_html=True)
-lienalternance= "[cliquez pour voir le programme de la formation en alternance ](https://www.wildcodeschool.com/fr-FR/formations/formation-data-scientist/remote-francais)"
+lienalternance= "[Cliquez pour voir le programme de la formation en alternance ](https://www.wildcodeschool.com/fr-FR/formations/formation-data-scientist/remote-francais)"
 st.markdown(lienalternance, unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center; color: #3283FE;font-size: 20px;'>Contactez-moi</h1>", unsafe_allow_html=True)
