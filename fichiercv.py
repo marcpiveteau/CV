@@ -15,7 +15,6 @@ recherche = st.selectbox("Découvrez mes hard skills et soft skills",['Choisisse
 
 #https://share.streamlit.io/marcpiveteau/cv/main/fichiercv.py	
 if recherche =='Hard skills':
-	st.write('pour voir le détail clique sur le bouton')
 	if(st.button('Collecte de données')):
 		st.markdown('**Mysql**')
 		st.markdown("![Alt Text](https://raw.githubusercontent.com/marcpiveteau/CV/main/t%C3%A9l%C3%A9chargement.jpg)")
